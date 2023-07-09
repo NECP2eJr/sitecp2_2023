@@ -10,7 +10,7 @@ Repositório contendo códigos do site da CP2, refatorado em 2023.2
 - Nome da Branch deve ser RCP2 - "numero da task";
 - Utilizar gitflow para criação de branches de feature e release;
 
-##Links Úteis:
+## Links Úteis:
 *Board do projeto:* https://ndcp2ejr.atlassian.net/jira/software/projects/RCP2/boards/16
 
 
