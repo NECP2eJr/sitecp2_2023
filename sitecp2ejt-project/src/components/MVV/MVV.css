@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Bebas+Neue&display=swap');
+
+.containerMVV {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 2%;
+}
+
+.mvv-card1,
+.mvv-card2,
+.mvv-card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.padding-mvv{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-title-mvv,
+.image-title-mv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mvv-card1 p,
+.mvv-card2 p,
+.mvv-card3 p {
+    width: 70%;
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    justify-content: justify;
+}
+
+.mvv-card2 p {
+    width: 100%;
+}
+
+
+.mvv-card1 img,
+.mvv-card2 img,
+.mvv-card3 img {
+    margin-bottom: -15px;
+}
+
+.mvv-card1 h2,
+.mvv-card2 h2,
+.mvv-card3 h2 {
+    margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .containerMVV {
+        flex-direction: column;
+    }
+
+    .padding-mvv{
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .mvv-card1,
+    .mvv-card2,
+    .mvv-card3 {
+        flex-direction: row;
+    }
+
+    .mvv-card1 p,
+    .mvv-card2 p,
+    .mvv-card3 p {
+        width: 100%;
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .mvv-card2 {
+        flex-direction: row-reverse;
+        margin: 40px 0px;
+    }
+
+    .mvv-card2 p {
+        width: 100%;
+    }
+
+    .image-title-mvv2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-title-mvv2 img{
+        margin-left: 15px;
+    }
+   
+    .image-title-mvv,
+    .image-title-mv2 {
+        padding: 5px;
+    }
+    
+}
