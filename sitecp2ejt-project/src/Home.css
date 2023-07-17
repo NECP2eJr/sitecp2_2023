@@ -1,0 +1,143 @@
+.home {
+    height: 100vh;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    -webkit-box-shadow: inset 0px 50px 50px -25px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 50px 50px -25px rgba(0, 0, 0, 0.75);
+
+}
+
+.content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11%;
+    margin-bottom: 8%;
+    font-size: 22px;
+}
+
+.detalhe {
+    margin: 4%;
+}
+
+.roll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.roll-down p {
+    color: #FEA626;
+}
+
+.faixa-right {
+    position: absolute;
+    z-index: 1000;
+    top: -10%;
+    right: 5%;
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .home {
+        height: 100vh;
+        -webkit-box-shadow: inset 0px 30px 30px -1px transparent;
+        box-shadow: inset 0px 30px 30px -1px transparent;
+    }
+
+    .content-home .logo {
+        transform: scale(0.7);
+        margin-top: 5%;
+        margin-bottom: 20px;
+        margin-bottom: -2%;
+    }
+
+    .detalhe {
+        padding: 30px 20px;
+    }
+
+
+}
+
+@media only screen and (min-width: 491px) and (max-width: 800px) {
+
+    .home {
+        height: 100vh;
+        -webkit-box-shadow: inset 0px 30px 30px -1px transparent;
+        box-shadow: inset 0px 30px 30px -1px transparent;
+    }
+
+    .content-home .logo {
+        transform: scale(0.7);
+        margin-top: 5%;
+        margin-bottom: 20px;
+        margin-bottom: -2%;
+    }
+
+    .content-home p {
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    .roll-down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .faixa-right {
+        top: -15%;
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 490px) {
+
+    .home {
+        height: 100vh;
+        -webkit-box-shadow: inset 0px 30px 30px -1px transparent;
+        box-shadow: inset 0px 30px 30px -1px transparent;
+        position: relative;
+    }
+
+    .content-home .logo {
+        transform: scale(0.4);
+        margin-top: 15%;
+        margin-bottom: 20px;
+    }
+
+    .content-home p {
+        font-size: 16px;
+        margin-top: 7%;
+    }
+
+    .logo {
+        margin-bottom: -20%;
+    }
+
+    .detalhe {
+        margin-top: -10%;
+
+    }
+
+    .roll-down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .faixa-right {
+        top: -15%;
+        transform: scale(0.8);
+    }
+
+}
