@@ -2,7 +2,7 @@
 
 /*-----Services Section-----*/
 .service-section {
-  background-image: url('../assets/gray-clean-paperboard.svg');
+  background-image: url('../../assets/gray-clean-paperboard.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -89,7 +89,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 90px;
-  background-image: url('../assets/botao.png');
+  background-image: url('../../assets/botao.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -107,6 +107,12 @@
   height: 90px;
   width: 300px;
   cursor: pointer;
+  transition: transform 0.2s ease-out; /* Adicionando a transição de escala */
+}
+
+/* Quando o mouse passa sobre o botão */
+.botao-texto:hover {
+  transform: scale(1.05); /* Aumenta 5% do tamanho original */
 }
 
 /* Responsividade em dispositivos móveis */

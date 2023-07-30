@@ -1,0 +1,85 @@
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 79px;
+  max-width: 200px;
+  position: relative;
+}
+
+.portfolio-image img {
+  width: 100%;
+  width: 326px;
+  height: 181px;
+  object-fit: cover;
+}
+
+.portfolio-title {
+  background-color: #dedede;
+  display: flex;
+  width: 256px;
+  height: 82px;
+  position: absolute;
+  bottom: 1%;
+  left: 20%;
+  transition: transform 0.3s ease, scale 0.3s ease;
+}
+
+.portfolio-title h3 {
+  display: flex;
+  color: #567498;
+  align-items: start;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.portfolio-button {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../assets/Maisinho.svg");
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+  align-self: flex-end;
+  margin-left: 130px;
+  margin-bottom: 11px;
+  transition: transform 0.3s ease; /* transição para a rotação */
+}
+
+.portfolio-button.rotate-icon {
+  transform: rotate(90deg); /* Rotação de 90 graus quando a classe .rotate-icon é adicionada */
+}
+
+.portfolio-title.shrink {
+  transform: scale(0.9); /* Diminui a escala em 10% quando a classe .shrink é adicionada */
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../assets/gray-clean-paperboard.svg');
+}
+
+.portfolio-row {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .portfolio-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .portfolio-item {
+    margin: 20px;
+  }
+}
