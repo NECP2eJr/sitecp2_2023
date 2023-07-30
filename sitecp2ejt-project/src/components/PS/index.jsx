@@ -1,3 +1,6 @@
+import { Carousel } from 'react-responsive-carousel';
+import { useState, useEffect } from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Ps.css';
 import Financeiro from '../../assets/financeiro.png';
 import GestaoDePessoas from '../../assets/gestaodepessoas.png';
@@ -14,6 +17,17 @@ import Impulsionar from '../../assets/Impulsionar.png';
 
 
 const PS = () => {
+  // Utilize o React Hook useState para controlar o estado do tamanho da tela
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // Utilize o React Hook useEffect para atualizar o estado do tamanho da tela ao redimensionar
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const blocks = [
     {
       title: 'Núcleo de Assuntos internos',
@@ -52,6 +66,11 @@ const PS = () => {
       ],
     },
   ];
+  // Define um tamanho máximo para as imagens dentro do carrossel
+  const carouselImageStyle = {
+    maxWidth: '141px',
+    maxHeight: '130px', // Defina o tamanho máximo desejado aqui
+  };
 
   return (
     <section className="blocks-section">
@@ -65,11 +84,23 @@ const PS = () => {
         <div key={index} className="block">
           <h2>{block.title}</h2>
           <p>{block.text}</p>
-          <div className="image-container">
-            {block.images.map((image, imgIndex) => (
-              <img key={imgIndex} src={image} alt={`Imagem ${imgIndex + 1}`} />
-            ))}
-          </div>
+          {/* Verifica se a tela é menor que 768 pixels para exibir o carrossel */}
+          {windowWidth < 768 ? (
+            <Carousel showArrows={true} showThumbs={false}>
+              {block.images.map((image, imgIndex) => (
+                <div key={imgIndex}>
+                  <img src={image} alt={`Imagem ${imgIndex + 1}`} style={carouselImageStyle} />
+                </div>
+              ))}
+            </Carousel>
+          ) : (
+            // Caso contrário, exibe as imagens em uma linha normal
+            <div className="image-container">
+              {block.images.map((image, imgIndex) => (
+                <img key={imgIndex} src={image} alt={`Imagem ${imgIndex + 1}`} />
+              ))}
+            </div>
+          )}
         </div>
       ))}
 

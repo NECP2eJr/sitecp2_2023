@@ -1,0 +1,27 @@
+.form{
+    padding: 0 111px;
+    background-image: url('../../assets/gray-clean-paperboard.svg');
+}
+.form h1{
+    color: #567498;
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 151px;
+}
+.form p{
+    color: #1E1E1E;
+    font-family: Akshar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.form img{
+    align-self: center;
+    margin-top: 68px;
+    width: 100%;
+}
