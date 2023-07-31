@@ -34,7 +34,7 @@ html, body, #root, .header {
     justify-content: center;
     list-style: none;
     gap: 2.1%;
-    padding: 17px;
+    padding: 5px;
 }
 
 .header li {
