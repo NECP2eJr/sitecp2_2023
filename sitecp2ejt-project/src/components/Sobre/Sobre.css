@@ -1,0 +1,88 @@
+.sobre-all{
+    position: relative;
+    background-color: #F87803B5;
+    width: 100%;
+}
+
+.webB{
+    width: 80%;
+    margin-top: 134px;
+    margin-left: 112px;
+    margin-right: 112px;
+    margin-bottom: 134px;
+}
+.webS{
+    display: none;
+}
+.img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.sobre-text h1{
+    color: #567498;
+    font-family: Bebas Neue;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sobre-text p{
+    text-indent: 40px; /* Define a tabulação com 40 pixels.*/
+    color: #393939;
+    font-family: Akshar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.negrito{
+    font-weight: bold;
+    color: #393939;
+    font-family: Akshar;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+@media (max-width: 1393px) {
+    .sobre-text h1{
+        font-size: 30px;
+    }
+    .sobre-text p{
+        font-size: 18px;
+    }
+    .negrito{
+        font-size: 18px;
+    }
+  }
+@media (max-width: 1200px){
+    .sobre-text{
+        width: 60%;
+    }
+    .webB{
+        display: none;
+    }
+    .webS{
+        display: flex;
+        width: 70%;
+        margin-top: 55px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 55px;
+    }
+}
