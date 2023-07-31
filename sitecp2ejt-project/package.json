@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9",
     "react-spring": "^9.7.2",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
