@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Ps.css';
 import Financeiro from '../../assets/financeiro.png';
 import GestaoDePessoas from '../../assets/gestaodepessoas.png';
-import Documentos from '../../assets/documentos.png';
+import Documentos from '../../assets/Documentos.png';
 import Vendas from '../../assets/Vendas.png';
 import Marketing from '../../assets/Marketing.png';
 import Comunicacao from '../../assets/Comunicacao.png';

@@ -1,4 +1,4 @@
-import WebBig from '../../assets/web.png';
+import WebBig from '../../assets/Web.png';
 import WebSmall from '../../assets/webSmall.png';
 import './Sobre.css';
 
