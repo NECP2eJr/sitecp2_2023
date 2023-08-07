@@ -1,0 +1,108 @@
+.contato-section{
+    background-image: url('../../assets/gray-clean-paperboard_black.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coluna1 h1 {
+    padding: 0 77px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fea626;
+    font-size: 80px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    letter-spacing: 14px; /* Espaçamento entre as letras */
+    font-weight: 500;
+  }
+.contato-box{
+    padding: 0 95px;
+}
+
+.contatos-container {
+    display: flex;
+  }
+  
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.coluna2 h1{
+  display: none;
+}
+
+.contato-box h3{
+    color: #FEA626;
+    font-family: Bebas Neue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.contato-box p{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    background-image: url('../../assets/botao.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .botao-texto {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    letter-spacing: 3%;
+    text-decoration: none;
+    padding: 0;
+    height: 90px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s ease-out; /* Adicionando a transição de escala */
+  }
+  
+  /* Quando o mouse passa sobre o botão */
+  .botao-texto:hover {
+    transform: scale(1.05); /* Aumenta 5% do tamanho original */
+  }
+
+  .logo-base{
+    display: flex;
+    position: absolute;
+    top: 99%;
+    left: 39%;
+  }
+
+  @media (max-width: 767px) {
+    .coluna1{
+      display: none;
+    }
+    .coluna2 h1{
+      display: flex;
+      padding: 0 77px;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #fea626;
+      font-size: 80px;
+      margin-left: 90px;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      letter-spacing: 14px; /* Espaçamento entre as letras */
+      font-weight: 500;
+    }
+  }

@@ -7,6 +7,7 @@ import Portifolio from './components/Portfolio'
 import MVV from './components/MVV'
 import PS from './components/PS'
 import FormularioPS from './components/FormularioPS'
+import Contatos from './components/Contatos'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <MVV/>
       <PS/>
       <FormularioPS/>
+      <Contatos/>
     </>
   )
 }
