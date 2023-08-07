@@ -81,14 +81,14 @@
   .botao-texto:hover {
     transform: scale(1.05); /* Aumenta 5% do tamanho original */
   }
-
+/*
   .logo-base{
     display: flex;
     position: absolute;
     top: 99%;
     left: 39%;
   }
-
+*/
   @media (max-width: 767px) {
     .coluna1{
       display: none;

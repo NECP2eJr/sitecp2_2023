@@ -8,6 +8,7 @@ import MVV from './components/MVV'
 import PS from './components/PS'
 import FormularioPS from './components/FormularioPS'
 import Contatos from './components/Contatos'
+import Rodape from './components/Rodape'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <PS/>
       <FormularioPS/>
       <Contatos/>
+      <Rodape/>
     </>
   )
 }

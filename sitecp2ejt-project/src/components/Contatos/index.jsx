@@ -63,7 +63,9 @@ const Contatos = () => {
                     </div>
                 </div>
             </div>
+            {/*
             <img className="logo-base" src={Logo} alt="Logo circular da CP2eJr"/>
+            */}
         </>
     );
 }
