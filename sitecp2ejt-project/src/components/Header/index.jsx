@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import "./Header.css";
+import logo from '../../assets/logo.png'
 
 function Header() {
     const [active, setActive] = useState(false);
@@ -35,7 +36,7 @@ function Header() {
             <div className={`menu ${active ? "menuOpen" : "menuClose"}`}>
                 <img
                     className={`logoside ${active ? "logoOpen" : "logoClose"}`}
-                    src="./image/logo.png"
+                    src={logo}
                     alt="CP2eJr Logo"
                 />
                 <div className="list">
