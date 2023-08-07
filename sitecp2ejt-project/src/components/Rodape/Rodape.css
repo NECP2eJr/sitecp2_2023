@@ -1,0 +1,57 @@
+.rodape-container{
+    padding: 0 77px;
+    display: flex;
+    background: #FEA626;
+    height: 236px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-coluna1{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+}
+.linha1{
+    background: white;
+    width: 31px;
+    height: 1px;
+}
+
+.rodape-coluna2{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.linha2{
+    background: white;
+    width: 25px;
+    height: 1px;
+    margin-bottom: 5px;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.copyright{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 310px;
+}
