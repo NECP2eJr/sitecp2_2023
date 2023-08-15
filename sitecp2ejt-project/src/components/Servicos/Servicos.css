@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap');
+
+/*-----Services Section-----*/
+.service-section {
+  background-image: url('../../assets/gray-clean-paperboard.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.line1 {
+  background: #fea626;
+  width: 17px;
+  height: 771px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-left: 58px;
+}
+
+.line2 {
+  background: #fea626;
+  width: 17px;
+  height: 726px;
+  flex-shrink: 0;
+  margin-left: 88px;
+  position: absolute;
+}
+
+.space-line{
+  height: 80px;
+}
+
+.main-title {
+  padding: 0 77px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #567498;
+  font-size: 80px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  letter-spacing: 14px; /* Espaçamento entre as letras */
+  font-weight: 500;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 77px;
+  justify-content: space-between; /* Espaçamento igual entre as colunas */
+  margin-left: 90px;
+  margin-right: 50px;
+}
+
+.column {
+  width: 45%; /* Largura de cada coluna */
+}
+
+.service {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0px;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.icon-title h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #567498;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.icon-title p {
+  font-family: 'Akshar', sans-serif;
+  color: #242424D9;
+  font-size: 20px;
+  letter-spacing: 3%; /* Espaçamento entre as letras */
+  line-height: 1.2; /* Altura entre as linhas */
+  font-weight: 500;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  background-image: url('../../assets/botao.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.botao-texto {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  letter-spacing: 3%;
+  text-decoration: none;
+  padding: 0;
+  height: 90px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease-out; /* Adicionando a transição de escala */
+}
+
+/* Quando o mouse passa sobre o botão */
+.botao-texto:hover {
+  transform: scale(1.05); /* Aumenta 5% do tamanho original */
+}
+
+/* Responsividade em dispositivos móveis */
+@media (max-width: 768px) {
+  .column {
+    width: 100%; /* Largura total em dispositivos móveis */
+  }
+
+  .services{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .line1 {
+    height: 30px;
+    margin-left: 60px;
+  }
+
+  .line2 {
+    height: 13px;
+    margin-left: 90px; 
+  }
+
+  .main-title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
