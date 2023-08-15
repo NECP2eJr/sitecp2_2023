@@ -45,7 +45,7 @@
     width: 140px;
 }
 
-.copyright{
+.copyright h3, h4{
     color: #1E1E1E;
     text-align: center;
     font-family: Bebas Neue;
@@ -53,5 +53,49 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 310px;
+    margin: 0;
 }
+
+.copyright{
+    margin-top: 15px;
+}
+
+.copyright{
+    height: 55px;
+}
+
+.logo-meio{
+    display: flex;
+    position: absolute;
+    top: 91%;
+    left: 39%;
+  }
+
+/* Responsividade */
+  @media (max-width: 768px) {
+    .rodape-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .rodape-coluna1,
+    .rodape-coluna2 {
+      text-align: center;
+    }
+  
+    .linha1{
+        align-self: center;
+        width: 25px;
+        height: 1px;
+    }
+    .linha2 {
+      display: none;
+    }
+
+     /* Esconder a logo em dispositivos móveis pq não soube fazer */
+    .logo-meio {
+      display: none;
+    }
+  }

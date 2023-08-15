@@ -20,10 +20,13 @@ function App() {
       <Portifolio />
       <Sobre />
       <MVV/>
-      <PS/>
-      <FormularioPS/>
       <Contatos/>
       <Rodape/>
+
+      {/* 
+      <PS/>
+      <FormularioPS/>
+      */}
     </>
   )
 }

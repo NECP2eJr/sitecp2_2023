@@ -79,9 +79,9 @@
   font-family: 'Akshar', sans-serif;
   color: #242424D9;
   font-size: 20px;
-  letter-spacing: 3%; /* Espaçamento entre as letras */
+  letter-spacing: 0.6px; /* Espaçamento entre as letras */
   line-height: 1.2; /* Altura entre as linhas */
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .botao {
