@@ -9,7 +9,7 @@ function Home() {
 
     return (
 
-        <div className="home">
+        <div className="home" id="home">
             <img className="faixa-right" src={faixaRight} alt="Detalhe right" />
             <div className="content-home">
                 <img className="logo" src={logo}></img>

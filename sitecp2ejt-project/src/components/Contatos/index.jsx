@@ -27,7 +27,7 @@ const Contatos = () => {
 
     return (
         <>
-            <div className='contato-section'>
+            <div className='contato-section' id='contato'>
                 <div className='coluna1'>
                     <h1>Contato</h1>
                     <img src={Equipe} alt="Equipe CP2eJr" />

@@ -1,11 +1,10 @@
-.rodape-container{
+.rodape-containerPS{
+    padding: 0 77px;
     display: flex;
-    background: #FEA626;
+    background: #242424;
     height: 236px;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 .rodape-coluna1{
@@ -17,8 +16,8 @@
     line-height: normal;
     letter-spacing: 0.6px;
     display: flex;
+    width: 264px;
     flex-direction: column;
-    width: 20vw;
 }
 .linha1{
     background: white;
@@ -33,7 +32,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 20vw;
 }
 .linha2{
     background: white;
@@ -47,20 +45,9 @@
     width: 140px;
 }
 
-.logo-meio{
-  margin-top: -240px;
-}
 
-.logo-meio-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-left: 4.5%;
-}
-
-.copyright h3, h4{
-    color: #1E1E1E;
+.copyrightPS h3, h4{
+    color: #242424;
     text-align: center;
     font-family: Bebas Neue;
     font-size: 15px;
@@ -70,9 +57,10 @@
     margin: 0;
 }
 
-.copyright{
-    margin-top: 15px;
+.copyrightPS{
+    background-color: #FEA626;
     height: 55px;
+    padding-top: 15px;
 }
 
 /* Responsividade */

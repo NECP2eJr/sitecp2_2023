@@ -5,7 +5,7 @@ import './Sobre.css';
 const Sobre = () => {
 
     return (
-        <div className='sobre-all'>
+        <div className='sobre-all' id='sobre'>
             <div className='img-text'>
                 <img className="webB" src={WebBig}></img>
                 <img className="webS" src={WebSmall}></img>

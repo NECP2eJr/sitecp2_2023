@@ -45,7 +45,7 @@ const Servicos = () => {
 
   return (
     <>
-      <div className="service-section">
+      <div className="service-section" id='service'>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="space-line"></div>
