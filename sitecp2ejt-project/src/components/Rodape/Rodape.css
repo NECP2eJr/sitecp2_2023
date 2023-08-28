@@ -45,7 +45,11 @@
     width: 140px;
 }
 
-.copyright{
+.logo-meio{
+  margin-top: -240px;
+}
+
+.copyright h3, h4{
     color: #1E1E1E;
     text-align: center;
     font-family: Bebas Neue;
@@ -53,5 +57,39 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 310px;
+    margin: 0;
 }
+
+.copyright{
+    margin-top: 15px;
+    height: 55px;
+}
+
+/* Responsividade */
+  @media (max-width: 768px) {
+    .rodape-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .rodape-coluna1,
+    .rodape-coluna2 {
+      text-align: center;
+    }
+  
+    .linha1{
+        align-self: center;
+        width: 25px;
+        height: 1px;
+    }
+    .linha2 {
+      display: none;
+    }
+
+    /* ta como "none" pq não soube encaixar na responsividade */
+    .logo-meio{
+      display:none;
+    }
+  }

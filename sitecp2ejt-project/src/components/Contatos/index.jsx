@@ -1,5 +1,4 @@
 import Equipe from '../../assets/cpmigos.png';
-import Logo from '../../assets/CP2EJR-circle.png';
 import "./Contatos.css";
 
 const Contatos = () => {
@@ -61,11 +60,10 @@ const Contatos = () => {
                     <div className='botao'>
                         <button className="botao-texto">Entre em contato</button>
                     </div>
+
+                    <div className="space-logo"></div>
                 </div>
             </div>
-            {/*
-            <img className="logo-base" src={Logo} alt="Logo circular da CP2eJr"/>
-            */}
         </>
     );
 }
