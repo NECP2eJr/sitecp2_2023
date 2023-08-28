@@ -45,6 +45,10 @@
     width: 140px;
 }
 
+.logo-meio{
+  margin-top: -240px;
+}
+
 .copyright h3, h4{
     color: #1E1E1E;
     text-align: center;
@@ -58,18 +62,8 @@
 
 .copyright{
     margin-top: 15px;
-}
-
-.copyright{
     height: 55px;
 }
-
-.logo-meio{
-    display: flex;
-    position: absolute;
-    top: 91%;
-    left: 39%;
-  }
 
 /* Responsividade */
   @media (max-width: 768px) {
@@ -94,8 +88,8 @@
       display: none;
     }
 
-     /* Esconder a logo em dispositivos móveis pq não soube fazer */
-    .logo-meio {
-      display: none;
+    /* ta como "none" pq não soube encaixar na responsividade */
+    .logo-meio{
+      display:none;
     }
   }
