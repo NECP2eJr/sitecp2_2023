@@ -82,6 +82,10 @@
     transform: scale(1.05); /* Aumenta 5% do tamanho original */
   }
 
+  .space-line{
+    height: 80px;
+  }
+
   @media (max-width: 767px) {
     .coluna1{
       display: none;

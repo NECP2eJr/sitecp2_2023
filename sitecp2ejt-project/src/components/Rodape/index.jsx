@@ -7,14 +7,14 @@ import './Rodape.css';
 const Rodape = () => {
     return (
         <footer className="rodape">
-
-            <img className="logo-meio" src={Logo} alt="Logo circular da CP2eJr"/>
-            
             <div className="rodape-container">
                 <div className="rodape-coluna1">
                     <p>Conte com a CP2eJr para fazer sua empresa voar mais alto!</p>
                     <div className="linha1"></div>
                 </div>
+
+                <img className="logo-meio" src={Logo} alt="Logo circular da CP2eJr"/>
+
                 <div className="rodape-coluna2">
                     <p>SIGA-NOS</p>
                     <div className="linha2"></div>

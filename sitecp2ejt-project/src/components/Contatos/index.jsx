@@ -60,6 +60,8 @@ const Contatos = () => {
                     <div className='botao'>
                         <button className="botao-texto">Entre em contato</button>
                     </div>
+
+                    <div className="space-logo"></div>
                 </div>
             </div>
         </>

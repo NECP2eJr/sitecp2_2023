@@ -85,6 +85,8 @@ const Servicos = () => {
         <div className='botao'>
           <button className="botao-texto">Entre em contato</button>
         </div>
+
+        <div className="space-line"></div>
       </div>
     </>
   );
