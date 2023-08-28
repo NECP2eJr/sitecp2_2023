@@ -73,7 +73,7 @@ const PS = () => {
   };
 
   return (
-    <section className="blocks-section">
+    <section className="blocks-section" id="PS-inicio">
       <div className="line1"></div>
       <div className="line2"></div>
       <div className="space-line"></div>
