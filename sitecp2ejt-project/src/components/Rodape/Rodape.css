@@ -1,8 +1,11 @@
+.rodape{
+    background: #FEA626;
+}
+
 .rodape-container{
     padding: 0 77px;
     display: flex;
-    background: #FEA626;
-    height: 236px;
+    height: 136px;
     justify-content: space-between;
     align-items: center;
 }
@@ -46,7 +49,10 @@
 }
 
 .logo-meio{
-  margin-top: -240px;
+  position: absolute;
+  margin-top: -160px;
+  width: 314px;
+  left: 39%;
 }
 
 .copyright h3, h4{
@@ -62,7 +68,8 @@
 
 .copyright{
     margin-top: 15px;
-    height: 55px;
+    height: 50px;
+    background: white;
 }
 
 /* Responsividade */
@@ -88,8 +95,10 @@
       display: none;
     }
 
-    /* ta como "none" pq não soube encaixar na responsividade */
     .logo-meio{
-      display:none;
+      position: absolute;
+      margin-top: -200px;
+      width: 280px;
+      left: 30%;
     }
   }

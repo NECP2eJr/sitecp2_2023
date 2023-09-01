@@ -122,7 +122,7 @@
   }
 
   .services{
-    margin-left: 0;
+    margin-left: 60px;
     margin-right: 0;
   }
 
@@ -138,6 +138,6 @@
 
   .main-title {
     text-align: center;
-    margin-left: 0;
+    margin-left: 50px;
   }
 }
