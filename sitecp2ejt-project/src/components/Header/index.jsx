@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import React from "react";
+import {NavLink} from 'react-router-dom';
 import "./Header.css";
 import logo from '../../assets/logo.png'
 
@@ -42,22 +42,22 @@ function Header() {
                 <div className="list">
                     <ul className="listItems">
                         <li>
-                            <a href="#">Início</a>
+                            <a href="#home">Início</a>
                         </li>
                         <li>
-                            <a href="#">Serviços</a>
+                            <a href="#service">Serviços</a>
                         </li>
                         <li>
-                            <a href="#">Portifólio</a>
+                            <a href="#portfolio">Portifólio</a>
                         </li>
                         <li>
-                            <a href="#">Sobre</a>
+                            <a href="#sobre">Sobre</a>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="#contato">Contato</a>
                         </li>
                         <li>
-                            <a href="#">Processo Seletivo</a>
+                            <NavLink to="/processoSeletivo#PS-inicio">Processo Seletivo</NavLink>
                         </li>
                     </ul>
                 </div>

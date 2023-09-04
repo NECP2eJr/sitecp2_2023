@@ -66,7 +66,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" id="portfolio">
       <div className="portfolio-row">
         {portfolioProps.slice(0, itemsPerRow).map((item) => (
           <PortfolioItem key={item.id} title={item.title} imageSrc={item.imageSrc} />
