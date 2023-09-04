@@ -2,29 +2,6 @@ import Equipe from '../../assets/cpmigos.png';
 import "./Contatos.css";
 
 const Contatos = () => {
-    const contato = [
-        {
-            title: 'Telefone',
-            body: '+55 (35) 3471-9200',
-        },
-        {
-            title: 'Email',
-            body: 'cp2ejr-diretoria@inatel.br',
-        },
-        {
-            title: 'Redes Sociais',
-            body: 'Instagram: @cp2ejr Facebook: Empresa.Junior.Inatel linkedin: CP2 - Empresa Júnior',
-        },
-        {
-            title: 'Endereço',
-            body: 'Avenida João de Camargo, 510, Centro, Campus do INATEL, Prédio da Incubadora, Sala 12, Santa Rita do Sapucaí, MG',
-        },
-    ];
-
-    const sliceIndex = Math.ceil(contato.length / 2);
-    const primeiraParteContatos = contato.slice(0, sliceIndex);
-    const segundaParteContatos = contato.slice(sliceIndex);
-
     return (
         <>
             <div className='contato-section' id='contato'>
@@ -35,26 +12,31 @@ const Contatos = () => {
 
                 <div className='coluna2'>
                     <h1>Contato</h1>
+
                     <div className="contatos-container">
-                        {primeiraParteContatos.map((contato, index) => (
-                            <div className="contato" key={index}>
-                                <div className="contato-box">
-                                    <h3>{contato.title}</h3>
-                                    <p>{contato.body}</p>
-                                </div>
-                            </div>
-                        ))}
+                        <div className="contato-box">
+                            <h3>Telefone</h3>
+                            <p>+55 (35) 3471-9200</p>
+                        </div>
+
+                        <div className="contato-box">
+                            <h3>Email</h3>
+                            <p>cp2ejr-diretoria@inatel.br</p>
+                        </div>
                     </div>
 
                     <div className="contatos-container">
-                        {segundaParteContatos.map((contato, index) => (
-                            <div className="contato" key={index + sliceIndex}>
-                                <div className="contato-box">
-                                    <h3>{contato.title}</h3>
-                                    <p>{contato.body}</p>
-                                </div>
-                            </div>
-                        ))}
+
+                        <div className="contato-box">
+                            <h3>Redes Sociais</h3>
+                            <p>Instagram: @cp2ejr<br/>Facebook: Empresa.Junior.Inatel<br/>linkedin: CP2 - Empresa Júnior</p>
+                        </div>
+
+                        <div className="contato-box">
+                            <h3>Endereço</h3>
+                            <p>Avenida João de Camargo, 510, Centro, Campus do INATEL, Prédio da Incubadora, Sala 12, Santa Rita do Sapucaí, MG</p>
+                        </div>
+
                     </div>
 
                     <div className='botao'>

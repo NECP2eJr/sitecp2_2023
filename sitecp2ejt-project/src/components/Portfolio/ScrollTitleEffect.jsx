@@ -18,7 +18,7 @@ const ScrollTitleEffect = () => {
     };
   }, []);
 
-  const titleWords = 'PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO'.split(' ');
+  const titleWords = 'PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO PORTFÓLIO'.split(' ');
 
   return (
     <Element name="title">
