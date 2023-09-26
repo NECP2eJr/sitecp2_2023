@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+  }
 
-.coluna1 h1 {
+  .coluna1 h1 {
     padding: 0 77px;
     font-family: 'Bebas Neue', sans-serif;
     color: #fea626;
@@ -16,18 +16,25 @@
     letter-spacing: 14px; /* Espaçamento entre as letras */
     font-weight: 500;
   }
-.contato-box{
-    padding: 0 95px;
+
+  .contato-box{
+    padding: 0 77px;
+    width: 100%;
 }
 
 .contatos-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 14px;
+    width: 100%;
   }
   
 .coluna2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .coluna2 h1{
   display: none;
@@ -55,7 +62,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
     background-image: url('../../assets/botao.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +79,7 @@
     text-decoration: none;
     padding: 0;
     height: 90px;
-    width: 300px;
+    width: 500px;
     cursor: pointer;
     transition: transform 0.2s ease-out; /* Adicionando a transição de escala */
   }
@@ -92,13 +99,11 @@
     }
     .coluna2 h1{
       display: flex;
-      padding: 0 77px;
+      padding: 0px;
       font-family: 'Bebas Neue', sans-serif;
       color: #fea626;
       font-size: 80px;
-      margin-left: 90px;
       margin-bottom: 10px;
-      margin-top: 0px;
       letter-spacing: 14px; /* Espaçamento entre as letras */
       font-weight: 500;
     }

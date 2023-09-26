@@ -57,7 +57,7 @@ function Header() {
                             <a href="#contato">Contato</a>
                         </li>
                         <li>
-                            <NavLink to="/processoSeletivo">Processo Seletivo</NavLink>
+                            <NavLink to="/processoSeletivo#PS-inicio">Processo Seletivo</NavLink>
                         </li>
                     </ul>
                 </div>
