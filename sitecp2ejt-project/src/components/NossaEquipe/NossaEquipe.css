@@ -1,0 +1,66 @@
+.NossaEquipeContainer {
+    background-color: #1E1E1E;
+    padding: 100px 150px;
+}
+
+.NossaEquipeContainer h1 {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fea626;
+    font-size: 80px;
+    
+    margin-bottom: 10px;
+    margin-top: 0px;
+    letter-spacing: 14px;
+    font-weight: 500;
+}
+
+.Cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.nucleosNS h2 {
+    color: #567498;
+    font-family: Bebas Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.nucleosNS p {
+    color: #FFF;
+    font-family: Akshar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .NossaEquipeContainer {
+        padding: 100px 80px;
+
+    }
+}
+
+@media only screen and (min-width: 491px) and (max-width: 800px) {
+    .NossaEquipeContainer {
+        padding: 100px 80px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 490px) {
+    .NossaEquipeContainer {
+        padding: 100px 50px;
+    }
+
+    .Cards{
+        justify-content: center;
+    }
+}

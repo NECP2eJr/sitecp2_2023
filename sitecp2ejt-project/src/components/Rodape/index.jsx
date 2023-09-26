@@ -19,10 +19,6 @@ const Rodape = () => {
                     <div className="linha1"></div>
                 </div>
 
-
-
-                <div className='logo-meio-container'><img className="logo-meio" src={Logo} alt="Logo circular da CP2eJr"/></div>
-
                 <div className="rodape-coluna2">
                     <p>SIGA-NOS</p>
                     <div className="linha2"></div>

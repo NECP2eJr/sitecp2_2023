@@ -1,7 +1,17 @@
+import { useState } from 'react';
 import Equipe from '../../assets/cpmigos.png';
 import "./Contatos.css";
+import FormsContato from '../FormsContato/index';
 
 const Contatos = () => {
+
+    const [isFormsContatoVisible, setIsFormsContatoVisible] = useState(false);
+
+    // Function to toggle the visibility of FormsContato
+    const handleToggleFormsContato = () => {
+        setIsFormsContatoVisible(!isFormsContatoVisible);
+    };
+
     return (
         <>
             <div className='contato-section' id='contato'>
@@ -40,8 +50,10 @@ const Contatos = () => {
                     </div>
 
                     <div className='botao'>
-                        <button className="botao-texto">Entre em contato</button>
+                        <button className="botao-texto" onClick={handleToggleFormsContato}>Entre em contato</button>
                     </div>
+
+                    {isFormsContatoVisible && <FormsContato onClose={handleToggleFormsContato} />}
 
                     <div className="space-logo"></div>
                 </div>

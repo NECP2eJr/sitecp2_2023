@@ -43,6 +43,10 @@ const Servicos = () => {
   const servicesColumn1 = services.slice(0, 3);
   const servicesColumn2 = services.slice(3);
 
+  const handleClick = () => {
+    window.location.href = '#contato'
+  }
+
   return (
     <>
       <div className="service-section" id='service'>
@@ -83,7 +87,7 @@ const Servicos = () => {
         </section>
 
         <div className='botao'>
-          <button className="botao-texto">Entre em contato</button>
+          <button className="botao-texto" onClick={handleClick}>Entre em contato</button>
         </div>
 
         <div className="space-line"></div>

@@ -1,0 +1,14 @@
+.NossosClientesTitle h1{
+    color: #567498;
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+    letter-spacing: 10px;
+}
+
+.NossosClientesTitle{
+    width: 40%;
+}
